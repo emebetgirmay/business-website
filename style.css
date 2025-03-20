@@ -3,12 +3,12 @@ body{
     margin: 0;
       }
       .container{
-        border: solid;
         margin: 1%;
       }
       header{
       padding-top: 1%;
-      border: solid;
+      
+    
       
       }
       nav {
@@ -17,7 +17,6 @@ body{
       margin-top:2%;
       margin-left:6%;
        gap:25%;
-        border: solid 2px;
         width: 43%;
         padding-top: 1%;
        
@@ -34,11 +33,10 @@ body{
         color: rgb(187, 125, 10);
     
       }
-      .contact{
+      .contact-info{
         display: flex;
-      
+        gap: 80%;
       }
-    
       
       .Adress a{
         text-decoration: none;
@@ -47,7 +45,6 @@ body{
       .contact a{
         text-decoration: none;
         color: black;
-        margin-left: 90%;
         
       }
       .background-image-container{
@@ -64,8 +61,7 @@ body{
       
      .title-text img{
       width:3%;
-      
-      
+       
        
       }
       .title-text{
@@ -82,6 +78,7 @@ body{
       
         
       }
+
     
       .main-heading{
         font-size: 100px;  
@@ -94,7 +91,6 @@ body{
         font-weight: larger;
         height: 75px;
         border: none;
-        margin: 70px;
         cursor: pointer;
         display: inline-block;
      
@@ -147,6 +143,8 @@ body{
       color: #fbb03b;
         font-weight: bold;
         font-size: larger;
+        /* display:flex ; */
+        
       
     }
     .discription{
@@ -205,7 +203,8 @@ body{
     .help{
       display: flex;
       gap:10%;
-      margin: auto 20%;
+      margin: auto 10%;
+      font-size: larger;
       
     }
     .video-container{
@@ -236,3 +235,87 @@ body{
     .play-button i{
       margin-right: 5px;
     }
+    .text-inside-image{
+      position: absolute;
+      background-color: white;
+      padding: 1% 2%;
+      margin: 2%;
+      font-weight: bolder;
+    }
+
+    .text-inside-image a{
+      color: #fbb03b;
+    }
+    #question{
+      position:relative;
+    margin-top: -16%;
+    padding-left: 5%;
+    color: white;
+    }
+  .get-start img{
+    padding-bottom: 25%;
+    padding-right: 5%;
+  }
+    .leading-text{
+      display: flex;
+      margin: 5% 15%;
+      gap: 10%;
+      /* position: relative; */
+    }
+    .leading-text img{
+      background-color: rgb(104, 104, 185);
+    }
+    .choose-text a{
+      color: #fbb03b;
+      font-weight:bolder;
+      font-size: small;
+    }
+    .choose-text h1{
+      font-size:60px;
+    }
+    .choose-text p{
+      color: #666;
+      font-size: larger;
+    }
+    .lists i{
+ color: white;
+ background-color: #fbb03b;
+ border-radius: 10px;
+ width: 4%;
+ 
+    }
+    .lists p{
+   line-height: 1.6%;
+   padding: 5%;
+   color: black;
+    }
+    .text-tobook{
+margin: 5% 35%;
+font-size: larger;
+    }
+    .text-tobook a{
+      color:#fbb03b;
+    }
+    .image-video{
+      position: relative;
+      height: 100vh;
+    }
+    .image-video img{
+      object-fit: cover;
+      width: 100%;
+      height: 90%;
+      filter: brightness(0.5);
+
+    }
+    .image-play-button{
+      position: relative;
+      font-size: 200px;
+      
+      margin: 50%;
+      
+      border-radius: 70px;
+      margin-top:-35% ;
+      cursor: pointer;
+
+    }
+    

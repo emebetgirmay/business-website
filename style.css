@@ -1,0 +1,238 @@
+
+body{
+    margin: 0;
+      }
+      .container{
+        border: solid;
+        margin: 1%;
+      }
+      header{
+      padding-top: 1%;
+      border: solid;
+      
+      }
+      nav {
+      display: flex;
+       padding-right:30%;
+      margin-top:2%;
+      margin-left:6%;
+       gap:25%;
+        border: solid 2px;
+        width: 43%;
+        padding-top: 1%;
+       
+    
+      }
+      nav a{
+        margin: 0 10px;
+        text-decoration: none;
+        color: rgb(70, 69, 69);
+        cursor: pointer;
+    
+      }
+      .nav-bar{
+        color: rgb(187, 125, 10);
+    
+      }
+      .contact{
+        display: flex;
+      
+      }
+    
+      
+      .Adress a{
+        text-decoration: none;
+        color: black;
+      }
+      .contact a{
+        text-decoration: none;
+        color: black;
+        margin-left: 90%;
+        
+      }
+      .background-image-container{
+        filter:brightness(0.5);
+        position:relative;
+        height: 100vh;
+        
+      }
+      .background-image-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+     .title-text img{
+      width:3%;
+      
+      
+       
+      }
+      .title-text{
+      transform: translate(-50%, -60%);
+      
+        color: rgb(255, 255, 255);
+        position: center;
+        width: 100%;
+        position: absolute;
+        left: 50%;
+       text-align: center;
+       padding-bottom: 30%;
+       justify-content: space-between;
+      
+        
+      }
+    
+      .main-heading{
+        font-size: 100px;  
+      }
+      button{
+        background-color: rgb(219, 219, 11);
+        width: 15%;
+        font-size: 20px;
+        color: white;
+        font-weight: larger;
+        height: 75px;
+        border: none;
+        margin: 70px;
+        cursor: pointer;
+        display: inline-block;
+     
+      }
+      .text{
+        margin-top: 5%;
+      }
+      .main-body{
+        background-color: white;
+      display: flex;
+      gap: 15%;
+      padding: 5% 15%;
+    
+      }
+      .text p{
+        font-size: 3em;
+        line-height: 1.2;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+    .text a{
+      font-size: 1.3em;
+      color: rgb(187, 125, 10);
+      cursor: pointer;
+    
+    }
+    .moving img{
+      width: 100%;
+        max-width: 600px;
+        display: block;
+        margin-left:  10%;
+    }
+    .boxes img{
+      right: 100px;
+      margin-right: 15%;
+
+    }
+    .border{
+  
+      padding: 5%;
+      display: flex;
+   
+    }
+    
+    
+     .year{
+        font-size: larger;
+    }
+     .since{
+      color: #fbb03b;
+        font-weight: bold;
+        font-size: larger;
+      
+    }
+    .discription{
+      line-height: 1.6;
+      color: #666;
+      top: 140%;
+      margin-right: 15%;
+      right: 100px;
+    }
+    .logo-ipsum{
+      display: flex;
+      gap: 15%;
+      margin: 7% 15%;
+      
+    }
+    .Services{
+        text-align: center;
+        margin: 10%;
+    }
+    .Services p{
+      color: #fbb03b;
+      font-weight: bolder;
+    }
+    
+    .offer-img{
+        display: inline-block;
+        vertical-align: top;
+        margin: 90px;
+        text-align: center;
+        width: 200px;
+        justify-content: center;
+    }
+    .offer-img a{
+      text-decoration: none;
+      color: #fbb03b;
+      font-size: small;
+      font-weight: bold;
+      
+    }
+    .offer-img img{
+      max-width: 100%;
+      height: auto;
+    }
+  .blue-img{
+       
+       width: auto; 
+       background-color: rgb(45, 105, 233);
+       color: white;
+    }
+
+    .offers{
+      text-align: center;
+      margin: 5%; 
+      line-height: 33px;
+    }
+    .help{
+      display: flex;
+      gap:10%;
+      margin: auto 20%;
+      
+    }
+    .video-container{
+      position: relative;
+      width: 300px;
+      height: 200px;
+      filter: brightness(0.5);
+      overflow: hidden;
+    }
+    .video-container img{
+      width: 50%;
+      height: 50%;
+    }
+    .play-button{
+      position: absolute;
+      top: 30%;
+      left: 25%;
+      transform: translate(-50%, -50%);
+      background-color: #fbb03b;
+ color: white;
+ padding:10px 10px;
+ border-radius: 70px;
+ cursor: pointer;
+ font-size: smaller;
+ 
+ 
+    }
+    .play-button i{
+      margin-right: 5px;
+    }
